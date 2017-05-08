@@ -3,19 +3,19 @@ ImageResizer
 
 A simple image resizing script that uses HTML5 canvas to resize.
 
-##About
+## About
 
 I needed a simple way to resize images client-side that were taken with a phone, because native phone images tend to be very large and would take too long to upload over a mobile connection.
 
-##Problems
+## Problems
 
 Resizing with the canvas is not ideal, but it is simple. The script resizes in steps because canvas resizing can introduce aliasing. It can be painfully slow for very large images.
 
-##Usage
+## Usage
 
 Give it an image and the script will return the newly resized image.
 
-######Parameters
+#### Parameters
 
 img: The image object.
 
